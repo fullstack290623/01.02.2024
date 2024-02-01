@@ -60,6 +60,7 @@ public class Main {
 //        });
 
         Arrays.sort(people, (o1, o2) -> o1.getArnonaAmount() - o2.getArnonaAmount());
+        // sort by id, using this syntax
 
         Arrays.stream(people).forEach(p -> System.out.println(p));
 
